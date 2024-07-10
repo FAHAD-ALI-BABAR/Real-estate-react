@@ -1,0 +1,56 @@
+.hero-section{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid red;
+    
+    
+
+}
+
+.hero-content{
+    width: 40%;
+    border: 1px solid green;
+    margin-right: 30px;
+    padding: 45px; 
+    position: relative;
+}
+
+.hero-img{
+    width: 60%;
+    border: 1px solid black;
+}
+.hero-img img{
+    width: 40%;
+    height: 300px;
+    border-radius: 50%;
+    object-fit:fill;
+     
+}
+.hero-heading{
+    font-weight:900;
+    font-size: 28px;
+    line-height: 3rem;
+    border: 1px solid yellow;
+}
+.hero-description{
+    font-weight: 100;
+    font-size: 14px;
+    padding-top: 25px;
+}
+.hero-ball{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #3d52a0;
+    position: absolute;
+    top: 23px;
+    left: 34rem;
+    z-index: -1;
+}
+
+
+
+
+  
