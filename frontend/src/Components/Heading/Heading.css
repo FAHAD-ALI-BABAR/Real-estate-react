@@ -1,0 +1,47 @@
+.heading{
+    border: 1px solid #7091E6;
+    background-color: #3d52a0;
+    display: flex;
+    justify-content: center;
+    
+}
+.vet-img{
+    width: 155px;
+    height: 26.5px;
+    margin-top: 8px;
+    margin-right: 5px;
+    
+
+}
+.vet-availability{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    
+    padding: 5px;
+    height: 35px;
+    margin-top: 3px;
+    border-left:1px solid grey;
+    
+}
+.vet-btn{
+    height: 40px;
+    width: 140px;
+    border-radius: 40px;
+    margin: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    list-style: 1;
+    font-size: 16px;
+    border: 1px solid rgb(26, 24, 22);
+    cursor: pointer;
+}
+.paid-advertisement{
+    font-size: 14px;
+    color: white;
+    margin-top: 0px;
+    padding: 10px;
+    
+}
