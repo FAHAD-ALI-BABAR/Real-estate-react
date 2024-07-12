@@ -1,0 +1,144 @@
+.cal-div{
+    border: 5px solid red;
+    height: 120vh;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.cal-gallery{
+    border: 2px solid green;
+    background-color: rgb(246, 246, 246);
+    height: 115vh;
+    display: grid;
+    grid-template-columns: 90vh 90vh;
+    grid-template-rows: 20vh 20vh;
+    padding-left: 30px;
+    
+    /* gap: 20px; */
+}
+.morgage-calc{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 16px;
+    height: 15vh;
+    width: 60%;
+    margin-left: 250px;
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+.morgage-calc:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+
+.affordability-calc{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 16px;
+    height: 15vh;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.affordability-calc:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.buy-sell-calc{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 16px;
+    height: 15vh;
+    width: 60%;
+    margin-left: 250px;
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.buy-sell-calc:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.refinance-calc{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 16px;
+    height: 15vh;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.refinance-calc:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.img-calc{
+    border: 1px solid blue;
+    width: 60px;
+    height: 70px;
+    
+}
+.text-calc{
+    border: 1px solid orangered;
+    height: 80px;
+    width: 50vh;
+    color:rgb(26, 24, 22);
+    
+    
+}
+.calc-heading{
+    border: 1px solid black;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-right: 0px; 
+}
+.calc-info{
+    border: 1px solid red;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.custom-icon {
+    width: 60px;
+    height: 55px;
+    font-size: 100px;
+    color: #3d52a0;
+    margin-top: 5px; /* Ensures the icon scales properly */
+  }
+  .calculation-heading{
+    font-size: 35px;
+   
+  }
+  .red{
+    color: red;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .trademark{
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .tools{
+    margin-left: 6px;
+  }

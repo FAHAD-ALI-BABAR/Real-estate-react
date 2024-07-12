@@ -1,7 +1,10 @@
 import React from 'react'
 import './Navbar.css'
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Navbar() {
+  
+  
   return (
     <>
     <section className='navbar'>
@@ -22,9 +25,10 @@ function Navbar() {
         
     </div>
     <div className='nav-btn'>
-    <button className='log-in'>Log in</button>
+    <button className='log-in' >Log in</button>
     <button className='sign-up'>Sign up</button>
     </div>
+   
     </section>
 
     
