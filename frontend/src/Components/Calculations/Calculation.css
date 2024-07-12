@@ -1,13 +1,14 @@
 .cal-div{
-    border: 5px solid red;
-    height: 120vh;
+    border: 1px solid rgb(246, 246, 246);;
+    background-color: rgb(246, 246, 246);
+    height: 55vh;
     font-family: "Open Sans", sans-serif;
     
 }
 .cal-gallery{
-    border: 2px solid green;
+    
     background-color: rgb(246, 246, 246);
-    height: 115vh;
+    height: 40vh;
     display: grid;
     grid-template-columns: 90vh 90vh;
     grid-template-rows: 20vh 20vh;
@@ -28,6 +29,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
    
 }
 .morgage-calc:hover{
@@ -49,6 +51,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 .affordability-calc:hover{
     transform: scale(1.1);
@@ -67,6 +70,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 
 }
 .buy-sell-calc:hover{
@@ -86,19 +90,20 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 .refinance-calc:hover{
     transform: scale(1.1);
     transition: 0.7s;
 }
 .img-calc{
-    border: 1px solid blue;
+    
     width: 60px;
     height: 70px;
     
 }
 .text-calc{
-    border: 1px solid orangered;
+    
     height: 80px;
     width: 50vh;
     color:rgb(26, 24, 22);
@@ -106,7 +111,7 @@
     
 }
 .calc-heading{
-    border: 1px solid black;
+    
     font-size: 17px;
     margin-top: 10px;
     margin-left: 10px;
@@ -114,7 +119,7 @@
     margin-right: 0px; 
 }
 .calc-info{
-    border: 1px solid red;
+   
     font-size: 14px;
     margin-top: 10px;
     margin-left: 10px;
@@ -124,14 +129,17 @@
     height: 55px;
     font-size: 100px;
     color: #3d52a0;
-    margin-top: 5px; /* Ensures the icon scales properly */
+    margin-top: 5px;
+     /* Ensures the icon scales properly */
   }
   .calculation-heading{
     font-size: 35px;
+    margin-top: 20px;
+    margin-left: 16%;
    
   }
   .red{
-    color: red;
+    color: #3d52a0;
     font-size: 35px;
     font-weight: 700;
   }
@@ -141,4 +149,7 @@
   }
   .tools{
     margin-left: 6px;
+  }
+  .rent{
+    margin-left: 3px;
   }

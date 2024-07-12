@@ -29,7 +29,7 @@ const Calculation = () => {
             </div>
             <div className='affordability-calc'>
             <div className='img-calc'>
-            <FaMoneyCheckDollar className='custom-icon' />
+            <FaMoneyCheckDollar className='custom-icon rent' />
             
             </div>
             <div className='text-calc'><h2 className='calc-heading'>Affordability Calculator</h2>
@@ -38,7 +38,7 @@ const Calculation = () => {
 
             </div>
             <div className='buy-sell-calc'>
-            <div className='img-calc rent'><GiBuyCard  className='custom-icon'/></div>
+            <div className='img-calc '><GiBuyCard  className='custom-icon '/></div>
             <div className='text-calc'><h2 className='calc-heading'>Rent or Buy Calculator</h2>
             <span className='calc-info'>Estimate when it makes sense to buy or rent</span>
             </div>
