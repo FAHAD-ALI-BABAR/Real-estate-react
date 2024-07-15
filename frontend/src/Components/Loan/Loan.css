@@ -1,0 +1,132 @@
+.loan-sec{
+    width: 100%;
+    height: 100%; 
+}
+.loan-div-1{
+    display: flex;
+    background-color: rgb(246, 246, 246);
+    
+    height: 497px;
+}
+.loan-div-2{
+    display: flex;
+    background-color: rgb(246, 246, 246);
+    
+}
+.loan-info{
+    
+   
+    width: 100%;
+    height: 50vh;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.loan-heading{
+    font-size: 34px;
+    font-weight: 800;
+    margin-left: 5px;
+}
+.loan-para-1{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.loan-btn{
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+    margin-left: 5px;
+    border: 1px solid white;
+}
+.loan-btn:hover{
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 5px 5px;
+    border-radius: 18px;
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.loan-link{
+    margin-top: 170px;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 300;
+    position: sticky;
+}
+.loan-link:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+}
+.loan-local-info{
+    width: 100%;
+    height: 50vh;
+    margin-top: 70px;
+    margin-left: 20px;
+
+}
+.loan-local-heading{
+    font-size: 34px;
+    font-weight: 800;
+    margin-left: 25px;
+}
+.local{
+    
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.loan-btnn{
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+    margin-left: 25px;
+    border: 1px solid white;
+}
+.loan-btnn:hover{
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 5px 5px;
+    border-radius: 18px;
+    padding: 10px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.loan-linkk{
+    margin-top: 90px;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 300;
+    position: sticky;
+    width: 20%;
+    margin-left: 25px;
+}
+.loan-linkk:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+}
+

@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero'
 import Heading from './Components/Heading/Heading'
 import Calculation from './Components/Calculations/Calculation'
 import Residencies from './Components/Residencies/Residencies'
+import Loan from './Components/Loan/Loan'
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Heading/>
       <Calculation/>
       <Residencies/>
+      <Loan/>
     </>
   )
 }
