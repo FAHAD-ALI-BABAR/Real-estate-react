@@ -153,4 +153,76 @@
   .rent{
     margin-left: 3px;
   }
+  @media (max-width: 768px) {
+    .cal-div{
+        height: 65vh;
+    }
+    .morgage-calc{
+        height: 10vh;
+    width: 40vh;
+
+    }
+    .affordability-calc{
+        height: 10vh;
+    width: 40vh;
+    margin-left: 30vh;
+    margin-top: 15px;
+    }
+    .buy-sell-calc{
+        height: 10vh;
+        width: 40vh;
+        margin-top: 0px;
+    }
+    .refinance-calc{
+        height: 10vh;
+        width: 40vh;
+        margin-left: 30vh;
+        margin-top: 0rem;
+       
+    }
+    .cal-gallery {
+      grid-template-columns: 25rem;
+      grid-template-rows: 8rem 8rem 8rem 8rem;
+     
+      
+    }
+  
+    .calculation-heading {
+      font-size: 28px;
+    }
+  
+    .custom-icon {
+      width: 50px;
+      height: 45px;
+      font-size: 80px;
+    }
+  
+    .calc-heading {
+      font-size: 15px;
+    }
+  
+    .calc-info {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .calculation-heading {
+      font-size: 24px;
+    }
+  
+    .custom-icon {
+      width: 40px;
+      height: 35px;
+      font-size: 60px;
+    }
+  
+    .calc-heading {
+      font-size: 13px;
+    }
+  
+    .calc-info {
+      font-size: 10px;
+    }
+  }
   
