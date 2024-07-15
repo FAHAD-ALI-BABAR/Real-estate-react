@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Ranch House",
+      "price": "70,503",
+      "details": "Ranch houses are single-story homes often with an open floor plan and large windows.",
+      "image": "./residency1.jpeg"
+    },
+    {
+      "name": "Cape Cod House",
+      "price": "87,900",
+      "details": "Cape Cod houses feature steep roofs, wood siding, multi-pane windows, and dormers.",
+      "image": "./residency9.jpeg"
+    },
+    {
+      "name": "Colonial House",
+      "price":"62,000",
+      "details": "Colonial houses are symmetrical, with a centered front door, evenly spaced windows, and brick or wood facades",
+      "image": "./residency3.jpeg"
+    },
+    {
+      "name": "Victorian House",
+      "price": "88,000",
+      "details": "Victorian houses are known for their ornate detailing, asymmetrical shapes, and vibrant colors.",
+      "image": "./residency4.jpeg"
+    },
+    {
+      "name": "Tudor House",
+      "price": "102,500",
+      "details": " Tudor houses feature steeply pitched gable roofs, decorative half-timbering, and tall, narrow windows.",
+      "image": "./residency5.jpeg"
+    },
+    {
+      "name": "Bungalow House",
+      "price": "90,700",
+      "details": "Bungalows are small, cozy homes with low-pitched roofs and wide front porches.",
+      "image": "./residency6.jpeg"
+    },
+    {
+      "name": "Craftsman House",
+      "price": "95,000",
+      "details": "Craftsman houses emphasize handcrafted woodwork, built-in furniture, and large front porches with thick columns.",
+      "image": "./residency7.jpeg"
+    },
+    {
+      "name": "Mediterranean House",
+      "price": "72,800",
+      "details": "Mediterranean houses have stucco walls, red-tiled roofs, and arched windows and doorways.",
+      "image": "./residency8.jpeg"
+    },
+    {
+      "name": "Farm House",
+      "price": "52,300",
+      "details": "Farmhouses are practical homes with large front porches, gabled roofs, and a central chimney.",
+      "image": "./residency9.jpeg"
+    },
+    {
+      "name": "Cotemporary House",
+      "price": "79,280",
+      "details": "Contemporary houses have clean lines, open spaces, and incorporate modern materials like glass and steel. ",
+      "image": "./residency10.jpeg"
+    }
+  ]
+  

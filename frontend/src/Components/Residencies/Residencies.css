@@ -1,0 +1,119 @@
+.residence-sec{
+    
+    height: 70vh;
+    width: 100%;
+}
+.residence-head{
+   
+    height: 70vh;
+}
+
+.residence-desc{
+   
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 185px;
+}
+.residence-h1{
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: black;
+}
+.residence-h3{
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #3d52a0;
+}
+.swiper-div{
+    
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.swiper-cards{
+    
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: max-content;
+    margin: auto;
+    transition: all 300ms ease-in;
+    
+
+}
+.swiper-cards>img{
+    width: 100%;
+    max-width: 19rem;
+    border-radius: 10px;
+}
+.swiper-cards>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.swiper-cards>:nth-child(3){
+    font-size: 1.5rem;
+}
+.swiper-cards:hover{
+    scale: 0.99;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+    overflow: visible;
+    cursor: pointer;
+}
+.residence-btn{
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .residence-btn>button{
+    padding: 6px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: white;
+    border:1px solid rgb(156, 155, 155);
+    border-radius: 5px;
+    box-shadow: rgba(2, 2, 2, 0.16) 4px 1px 3px;
+
+  }
+  /* Media Queries */
+@media (max-width: 1100px) {
+    .residence-desc {
+      width: 60%;
+    }
+    .swiper-div {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .residence-desc {
+      width: 70%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .swiper-div {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .residence-desc {
+      width: 80%;
+    }
+    .swiper-cards img {
+      max-width: 15rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .residence-desc {
+      width: 90%;
+    }
+    .swiper-cards img {
+      max-width: 12rem;
+    }
+  }
