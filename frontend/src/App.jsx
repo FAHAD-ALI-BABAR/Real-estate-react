@@ -5,6 +5,7 @@ import Heading from './Components/Heading/Heading'
 import Calculation from './Components/Calculations/Calculation'
 import Residencies from './Components/Residencies/Residencies'
 import Loan from './Components/Loan/Loan'
+import Cards from './Components/Cards/Cards'
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Calculation/>
       <Residencies/>
       <Loan/>
+      <Cards/>
     </>
   )
 }
